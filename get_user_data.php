@@ -7,7 +7,7 @@ if (isset($_SESSION['user_id'])) {
         'name' => $_SESSION['name'],
         'email' => $_SESSION['email'],
         'phone' => $_SESSION['phone'],
-        'profileImage' => $_SESSION['profileImage']
+        'profileImage' => $_SESSION['profile_image']
     );
 
     echo json_encode($userData);
